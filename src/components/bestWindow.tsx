@@ -18,7 +18,7 @@ function BestWindow() {
         } | null>(null);
     const handleSubmit=()=>{
       
-        axios.get(`https://generation-mix-backend.onrender.com/api/optimalWindow/${period}`)
+        axios.get(`https://generation-mix-backend-1.onrender.com/api/optimalWindow/${period}`)
       .then(res => setResult(res.data))
       .catch(err => console.error(err));
 

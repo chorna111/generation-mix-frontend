@@ -9,7 +9,7 @@ function Charts() {
     const [load, setLoad] = useState(true)
     const navigator=useNavigate()
     useEffect(() => {
-        fetch("https://generation-mix-backend.onrender.com/api/dailyFuelsPercentage")
+        fetch("https://generation-mix-backend-1.onrender.com/api/dailyFuelsPercentage")
             .then((res) => res.json())
             .then((json) => {
                 setData(json)
